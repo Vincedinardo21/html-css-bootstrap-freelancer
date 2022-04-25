@@ -1,9 +1,63 @@
 [class*="col"] {
+    /* Debug */
     background-color: aqua;
     min-height: 100px;
     border: 2px solid black;
 }
 
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
 .container h3 {
     text-align: center;
+}
+
+.row img {
+    width: 200px;
+}
+
+header .col-12 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.download {
+    padding: 10px;
+    border-radius: 7px;
+    text-align: center;
+    border: 1px solid red;
+    /* background-color: blueviolet; */
+}
+
+.about {
+    padding: 40px;
+    background-color: rgb(26, 188, 156);
+}
+
+ul {
+    list-style-type: none;
+}
+
+li {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-bottom: 1px solid gray;
+}
+
+#send {
+    width: 100px;
+    margin-top: 100px;
+    border-radius: 7px;
+    border-bottom: none;
+    border: 1px solid red;
+}
+
+footer {
+    text-align: center;
+}
+
+span {
+    color: green;
 }
