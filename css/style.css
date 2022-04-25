@@ -1,0 +1,9 @@
+[class*="col"] {
+    background-color: aqua;
+    min-height: 100px;
+    border: 2px solid black;
+}
+
+.container h3 {
+    text-align: center;
+}
