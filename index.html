@@ -16,45 +16,33 @@
 
     <!-- Start Bootstrap -->
     <header>
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">START BOOTSTRAP</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse justify-content-end" id="navbarText">
+            <ul class="navbar-nav mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">PORTFOLIO</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">ABOUT</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">CONTACT</a>
+              </li>
+            </ul>
+            <!-- <span class="navbar-text">
+              Navbar text with an inline element
+            </span> -->
+          </div>
+        </div>
+      </nav>
       <div class="container">
 
-        <!-- Navbar Bootstrap -->
-        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-          <div class="container-fluid">
-            <a class="navbar-brand" href="#">START BOOTSTRAP</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse justify-content-end" id="navbarText">
-              <ul class="navbar-nav mb-2 mb-lg-0">
-                <li class="nav-item">
-                  <a class="nav-link active" aria-current="page" href="#">PORTFOLIO</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">ABOUT</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">CONTACT</a>
-                </li>
-              </ul>
-              <!-- <span class="navbar-text">
-                Navbar text with an inline element
-              </span> -->
-            </div>
-          </div>
-        </nav>
-
-        <!-- <div class="row">
-          <div class="col-4"><h2>START BOOTSTRAP</h2></div>
-          <div class="col-4"></div>
-          <div class="col-4">
-            <ul>
-              <li><a href="#">PORTFOLIO</a></li>
-              <li><a href="#">ABOUT</a></li>
-              <li><a href="#">CONTACT</a></li>
-            </ul>
-          </div>
-        </div> -->
+    
 
         <!-- Immagine -->
         <div class="row">
@@ -94,7 +82,8 @@
             <div class="col-12 col-sm-6">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Molestias blanditiis in debitis doloremque maiores, illo voluptate dicta asperiores nobis soluta illum laudantium autem quidem tenetur, dolore, dolorem officiis. Vero, culpa!</div>
             <div class="col-12 col-sm-6">Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati alias fuga repellat? Rem facere quam, cupiditate natus quaerat quibusdam optio. Laboriosam cum voluptates veritatis pariatur debitis quaerat unde totam natus.</div>      
         </div>
-        <div class="download"><i class="fa-solid fa-download"></i> Download</div>
+        <!-- <div class="download"><i class="fa-solid fa-download"></i> Download</div> -->
+        <button type="button" class="btn btn-outline-light"><i class="fa-solid fa-download"></i> Download</button>
       </div>
     </section>
 
@@ -110,7 +99,8 @@
               <li>Email Address</li>
               <li>Phone Number</li>
               <li>Message</li>
-              <li id="send"><div>Send</div></li>
+              <li><button type="button" class="btn btn-success">Send</button></li>
+              <!-- <li id="send"><div>Send</div></li> -->
             </ul>        
           </div>
         </div>
@@ -144,8 +134,13 @@
           </div>  
         </div>
 
+        
+        
+      </div>
+
+      <div class="copyright">
         <div class="row">
-          <div class="col-12">Copyright Your Website 2019</div>
+          <div class="col-12">Copyright <i class="fa-regular fa-copyright"></i> Your Website 2019</div>
         </div>
       </div>
     </footer>
